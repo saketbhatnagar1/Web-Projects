@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul>
+            <Li>js</Li>
+        </ul>
+    </div>
+
+
+</body>
+<script>
+    function addlanguage(language) {
+        const li = document.createElement('li');
+        li.innerHTML = `${language}`
+        const img = document.createElement('img');
+        img.src = 'https://images.prismic.io/igspace/a76ff532-ae6a-427c-b21b-630550942601_F-18+super+hornet+1.jpg?auto=compress%2Cformat'; // Set the image source
+
+        img.style.width = '200px'; // Set width to 200 pixels
+        img.style.height = '150px'; // Set height to 150 pixels
+
+
+        document.querySelector(".container").appendChild(li);
+        document.querySelector(".container").appendChild(img);
+    }
+    addlanguage("python")
+    addlanguage("python")
+
+</script>
+
+</html>
